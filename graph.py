@@ -1,3 +1,15 @@
+'''
+graph={
+    "a": ['b','c'],
+    "b": ['a','d'],
+    "c": ['a','d'],
+    "d": ['e'],
+    "e": ['d'],
+}
+
+print(graph.keys())
+print(graph.values())
+'''
 
 class graph:
     def __init__(self,gdict=None) -> None:
